@@ -1,0 +1,12 @@
+{
+  "name": "test-jest-circleci-part2",
+  "version": "1.0.0",
+  "description": "This is a tutorial for testing CI/CD with CircleCI, and CodeClimate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
