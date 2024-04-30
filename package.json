@@ -4,8 +4,8 @@
   "description": "This is a tutorial for testing CI/CD with CircleCI, and CodeClimate",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "test": "jest",
+  "scripts": { 
+    "test": "jest --coverage",
     "start": "nodemon ./src/math.js"
   },
   "keywords": [],
@@ -14,10 +14,5 @@
   "dependencies": {
     "jest": "^29.7.0",
     "nodemon": "^3.1.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.24.5",
-    "@babel/preset-env": "^7.24.5",
-    "babel-jest": "^29.7.0"
   }
 }
